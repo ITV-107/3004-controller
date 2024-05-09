@@ -8,4 +8,4 @@ then
 	sudo $SCRIPT_DIR/install.sh
 fi
 
-ryu-manager ryu.app.simple_switch_13
+ryu-manager ryu.app.simple_switch_13 ryu.app.ofctl_rest
